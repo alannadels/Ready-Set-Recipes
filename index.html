@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Ready Set Recipes</title>
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/ed4c04b495.js" crossorigin="anonymous"></script>
+        <!-- StyleSheet -->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+
+        <section id="title" class="red-color">
+            <div class="container-fluid">  
+            <!-- Nav Bar -->
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <h3 class="main-title">Ready Set Recipes</h3>
+                    <a class="navbar-brand" href=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pricing">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#cta">Download</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                    <!-- Title -->
+
+                    <div class="row">
+
+                        <div class="col-lg-6">
+                            <h1 class="big-heading">Find new recipes anytime, anywhere.</h1>
+                            <a href="https://www.apple.com/app-store/" target="_blank">
+                                <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+                            </a>
+                            <a href="https://play.google.com/store/games?hl=en_US&gl=US" target="_blank">
+                                <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+                            </a>
+                        </div>
+                        <div class="col-lg-6">
+                            <img class="title-image" src="images/hand-search.png" alt="iphone-mockup">
+                        </div>
+
+                    </div>
+            </div> 
+        </section>
+
+
+        <!-- Features -->
+
+        <section id="features" class="white-color">
+            <div class="row">
+                <div class="feature-box col-lg-4">
+                    <i class="icon fa-solid fa-circle-check fa-4x"></i>
+                    <h3>Easy to Use</h3>
+                    <p>Convenient, easily accessible, and user friendly.</p>
+                </div>
+    
+                <div class="feature-box col-lg-4">
+                    <i class="icon fa-solid fa-bullseye fa-4x"></i>
+                    <h3>Elite Chefs</h3>
+                    <p>Learn from some of the greatest culinary figures.</p>
+                </div>
+    
+                <div class="feature-box col-lg-4">
+                    <i class="icon fa-solid fa-heart fa-4x"></i>
+                    <h3>Love at First Taste</h3>
+                    <p>Food is the way to the heart. Am I right?</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Testimonials -->
+
+        <section id="testimonials" class="pink-color">
+            <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h2 class="testimonial-text">"Ready Set Recipes has turned the food in this household around. I actually enjoy mom's leftovers now!"</h2>
+                    <img class="testimonial-image" src="images/dog-img.jpeg" alt="dog-profile">
+                    <em>Chester, New York</em>
+                  </div>
+                  <div class="carousel-item">
+                    <h2 class="testimonial-text">"I cannot recommend Ready Set Recipes enough. My food is soooo tasty now!"</h2>
+                    <img class="testimonial-image horizontal-img" src="images/lady-eating.jpeg" alt="lady-profile">
+                    <em>Sophie, New York</em>
+                  </div>
+                  <div class="carousel-item">
+                    <h2 class="testimonial-text">"Cooking used to be boring and tasteless. Ready Set Recipes has absolutely changed that!"</h2>
+                    <img class="testimonial-image" src="images/lady-img.jpeg" alt="lady-profile">
+                    <em>Claire, San Francisco</em>
+                  </div>
+                  <div class="carousel-item">
+                    <h2 class="testimonial-text">"If you want to level up your cooking, you have got to check out Ready Set Recipes."</h2>
+                    <img class="testimonial-image horizontal-img" src="images/man-eating.jpeg" alt="lady-profile">
+                    <em>Emilio, Santa Barbara</em>
+                  </div>
+                </div>
+      
+                <!-- Previous -->
+                <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+      
+                <!-- Next -->
+                <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Press -->
+
+        <section id="press" class="pink-color">
+            <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+            <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+            <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+            <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+        </section>
+
+
+        <!-- Pricing -->
+
+        <section id="pricing" class="white-color">
+
+            <h2>Find Your Perfect Plan</h2>
+            <p>Simple and affordable price plans, tailored for your particular needs.</p>
+            
+            <div class="row">
+                
+                <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Just a Taste</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>Free</h2>
+                            <p>Access to all appetizer recipes</p>
+                            <p>Contact up to 5 verified chefs a day</p>
+                            <p>Free daily entr&eacutee recipe</p>
+                            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Full Course Meal</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>$9.99 / mo</h2>
+                            <p>Everything 'Just a Taste' offers plus:</p>
+                            <p>Access to all entr&eacutee and dessert recipes</p>
+                            <p>Free daily drink/cocktail recipe</p>
+                            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-column col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>The Feast</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>$19.99 / mo</h2>
+                            <p>Everything 'Full Course Meal' offers plus:</p>
+                            <p>Access to all drink/cocktail recipes</p>
+                            <p>Access to an exclusive weekly recipe</p>
+                            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+        <!-- Call to Action -->
+
+        <section id="cta" class="red-color">
+
+            <h3 class="cta-heading">Tap Into Your Inner Chef Today.</h3>
+            <a href="https://www.apple.com/app-store/" target="_blank">
+                <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+            </a>
+            <a href="https://play.google.com/store/games?hl=en_US&gl=US" target="_blank">
+                <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+            </a>
+        </section>
+
+
+        <!-- Footer -->
+
+        <footer id="footer" class="white-color">
+            <i class="social-icon fa-brands fa-facebook"></i>
+            <i class="social-icon fa-brands fa-twitter"></i>
+            <i class="social-icon fa-brands fa-instagram"></i>
+            <i class="social-icon fa-solid fa-envelope"></i>
+            <p class="margin-copyright">&copy; 2023 Ready Set Recipes <br />Alan Nadelsticher</p>
+
+        </footer>
+
+
+    </body>
+
+</html>
